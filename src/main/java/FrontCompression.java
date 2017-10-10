@@ -41,6 +41,14 @@ public class FrontCompression {
             return "";
         }
 
+         String[] postcorpus = corpus.split("/n");
+         String nullio = null;
+         String current = postcorpus[0];
+         for (int i = 0; i < postcorpus.length; i++) {
+             for (int j = 0; j < postcorpus.length - 1; i++) {
+                 current = postcorpus[i];
+             }
+         }
         /*
          * Complete this function.
          */
